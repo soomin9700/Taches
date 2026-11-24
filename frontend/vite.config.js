@@ -1,13 +1,12 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
   plugins: [vue()],
-  server: {
-    proxy: { '/api': 'http://localhost:8000' },
+  resolve: {
+    // permet d'écrire  import api from '@/services/api'
+    alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
   },
-  build: {
-    outDir: '../backend/public',
-    emptyOutDir: false, // ne pas supprimer index.php et .htaccess
-  },
-})
+  server: { port: 8100, host: true },
+});
