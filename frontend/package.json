@@ -15,6 +15,7 @@
     "@capacitor/preferences": "^8.0.1",
     "@ionic/vue": "9.0.7",
     "@ionic/vue-router": "9.0.7",
+    "firebase": "^13.4.0",
     "ionicons": "8.1.0",
     "vue": "3.5.43",
     "vue-router": "5.4.0"

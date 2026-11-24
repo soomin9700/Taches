@@ -1,9 +1,17 @@
-/** 6000 ou "6000.00"  ->  "6 000 Ar" */
-export function formatAriary(montant: number | string): string {
-  return new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 }).format(Number(montant)) + ' Ar';
+export function formatDuree(minutes: number): string {
+  const m = Math.round(minutes || 0);
+  if (m < 60) return `${m}m`;
+  const h = Math.floor(m / 60);
+  const reste = m % 60;
+  return reste > 0 ? `${h}h ${reste}m` : `${h}h`;
 }
 
-/** "2026-10-25T09:30:00Z"  ->  "25/10/2026 12:30" (heure locale) */
-export function formatDate(iso: string): string {
-  return new Date(iso).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
+export function formatChrono(secondes: number): string {
+  const min = Math.floor(secondes / 60).toString().padStart(2, '0');
+  const sec = (secondes % 60).toString().padStart(2, '0');
+  return `${min}:${sec}`;
+}
+
+export function aujourdHuiISO(): string {
+  return new Date().toISOString().split('T')[0];
 }
