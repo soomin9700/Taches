@@ -212,3 +212,35 @@ END;
 PRAGMA user_version = 1;
 
 
+
+
+
+
+
+
+
+
+
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAkv5nyLc0D_FNUhzTtlfj2Zf25ixZNF0Q",
+  authDomain: "taches-6e82a.firebaseapp.com",
+  projectId: "taches-6e82a",
+  storageBucket: "taches-6e82a.firebasestorage.app",
+  messagingSenderId: "37837141752",
+  appId: "1:37837141752:web:aefb9672e5919f7b252d0d",
+  measurementId: "G-FD28ZNRFGE"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
