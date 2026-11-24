@@ -1,0 +1,189 @@
+ERROR - 2026-11-06 18:48:42 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:48:42 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 18:56:28 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:56:28 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 18:57:31 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:57:31 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 18:57:36 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:57:36 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 18:57:45 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:57:45 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 18:57:48 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:57:48 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 18:57:56 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:57:56 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 18:59:33 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/PlanningEDTModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Api/PlanningEDTController.php(14): App\Models\PlanningEDTModel->getAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 18:59:33 --> pg_query(): Query failed: ERROR:  column pe.id_horaire_poste does not exist
+LINE 1: SELECT &quot;pe&quot;.&quot;id&quot;, &quot;pe&quot;.&quot;id_horaire_poste&quot;, &quot;pe&quot;.&quot;date_debut&quot;...
+                          ^
+ERROR - 2026-11-06 19:09:57 --> pg_query(): Query failed: ERROR:  column &quot;jours_semaine&quot; is of type smallint[] but expression is of type record
+LINE 1: ...LUES ('2026-11-04', '2026-11-30', 'Andrana planning', (1,4))
+                                                                 ^
+HINT:  You will need to rewrite or cast the expression.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/PlanningEDTModel.php(52): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Api/PlanningEDTController.php(63): App\Models\PlanningEDTModel->create()
+ 9 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\PlanningEDTController->create()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 19:09:57 --> pg_query(): Query failed: ERROR:  column &quot;jours_semaine&quot; is of type smallint[] but expression is of type record
+LINE 1: ...LUES ('2026-11-04', '2026-11-30', 'Andrana planning', (1,4))
+                                                                 ^
+HINT:  You will need to rewrite or cast the expression.
+CRITICAL - 2026-11-06 19:31:54 --> TypeError: App\Models\UtilisateurModel::formater(): Argument #1 ($u) must be of type array, null given, called in /home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/app/Models/UtilisateurModel.php on line 54
+[Method: POST, Route: api/auth/login]
+in APPPATH/Models/UtilisateurModel.php on line 70.
+ 1 APPPATH/Models/UtilisateurModel.php(54): App\Models\UtilisateurModel->formater()
+ 2 APPPATH/Controllers/Api/Auth.php(16): App\Models\UtilisateurModel->authentifier()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\Auth->login()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Documents/Miantsa/S5/RohySafe-RH/backend/public/index.php')
+ERROR - 2026-11-06 20:06:23 --> Un employé ne peut pas être affecté deux fois dans le même planning.
