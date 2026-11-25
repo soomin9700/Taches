@@ -3,30 +3,32 @@ import { IonicVue } from '@ionic/vue';
 import App from './App.vue';
 import router from './router/index.js';
 
+/* Initialisation Firebase (auth + firestore) */
+import '@/services/firebase';
+
 /* CSS indispensable au fonctionnement des composants Ionic */
 import '@ionic/vue/css/core.css';
-/* CSS de base (mise en forme minimale du texte et des titres) */
+/* CSS de base */
 import '@ionic/vue/css/normalize.css';
 import '@ionic/vue/css/structure.css';
 import '@ionic/vue/css/typography.css';
-/* Classes utilitaires : ion-padding, ion-text-center, ion-margin-top... */
+/* Classes utilitaires */
 import '@ionic/vue/css/padding.css';
 import '@ionic/vue/css/text-alignment.css';
 import '@ionic/vue/css/flex-utils.css';
 import '@ionic/vue/css/display.css';
-/* Mode sombre automatique selon le réglage du téléphone */
+/* Mode sombre automatique */
 import '@ionic/vue/css/palettes/dark.system.css';
-import { restaurerPanier } from '@/composables/usePanier';
+
+
+
 /* Couleurs de l'application */
 import './theme/variables.css';
-import { restaurerFavoris } from '@/composables/useFavoris'
-
-
 
 const app = createApp(App)
-  .use(IonicVue)   // active Ionic dans Vue
-  .use(router);    // active la navigation
+  .use(IonicVue)
+  .use(router);
 
-Promise.all([router.isReady(), restaurerPanier() , restaurerFavoris()]).then(() => {
+Promise.all([router.isReady()]).then(() => {
   app.mount('#app');
 });
