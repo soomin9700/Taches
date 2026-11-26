@@ -1,1 +1,5 @@
-Taches/frontend/node_modulesfrontend/node_modules/
+# Dépendances Node.js
+**/node_modules/
+
+# Fichiers générés par le build
+**/dist/
